@@ -1,0 +1,18 @@
+{
+  "name": "mercado_web_evaluado",
+  "version": "1.0.0",
+  "description": "Desafío handlebars views y partials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pmaureira",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8",
+    "jquery": "^3.7.1"
+  }
+}
