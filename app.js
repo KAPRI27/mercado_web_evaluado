@@ -14,8 +14,9 @@ app.engine('handlebars', engine({
 
 app.set('view engine', 'handlebars');
 app.set('views', path.join(__dirname, 'views'));
+
 // Datos de ejemplo
-const productos = ['Producto 1', 'Producto 2', 'Producto 3'];
+const productos = [];
 
 // Ruta raíz
 app.get('/', (req, res) => {
