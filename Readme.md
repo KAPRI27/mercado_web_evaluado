@@ -30,13 +30,12 @@ Para el control de datos en la aplicación, siéntete libre de ocupar la herrami
 
 ¡Mucho éxito! 
 
-# INSTRUCCIONES PARA EL CORRECTO USO E INSTALACIÓN
+# Instrucciones para el correcto uso e instalación
 
-**PARA INSTALAR LAS DEPENDENCIAS CORRA LA SIGUIENTE INSTRUCCIÓN EN SU TERMINAL**
-npm init
+**Para instalar las dependencias corra la siguiente instrucción en su terminal**
+npm install
 
-# instalaciones
-
+# instalaciones 
 npm init
 npm i express
 npm install --save express-handlebars
@@ -44,10 +43,4 @@ npm i handlebars
 npm i jquery
 npm i bootstrap
 
-CREAMOS LA CARPETA VIEWS
-Handlebars la requiere por defecto para encontrar las "vistas", aquí creamos el archivo main.handlebars
 
-CREAMOS LA CARPETA PARTIALS
-Hay crreamos un archivo de extensión handlebars y ahí creamos nuestro codigo HTML que se mostrará en cada vista
-Los comentarios en este archivo serán escritos entre doble llaves con un signo de exclamasión {{! }}
-Los partials se llaman usando {{< nombrearchivo}}
