@@ -18,10 +18,26 @@ app.set('views', path.join(__dirname, 'views'));
 // Datos de ejemplo
 const productos = [];
 
+const dashboard = [];
+
 // Ruta raíz
 app.get('/', (req, res) => {
-  res.render('home', { productos });
+  res.render('home');
 });
+
+/*
+//Ruta Inicio
+app.get('/inicio', (req, res) => {
+  res.render('Menu', { Dashboard});
+});
+
+
+//Ruta Productos
+app.get('/productos', (req, res) => {
+  res.render('Productos', { Productos });
+});
+
+*/
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
